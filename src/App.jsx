@@ -19,7 +19,7 @@ function App() {
           <Player initialName="Player 2" symbol="O" isActive={activePlayer === 'O'}/>         
         </ol>
 
-        <GameBoard onSelectSquare={handleSelectSquare} />
+        <GameBoard onSelectSquare={handleSelectSquare} activePlayerSymbol={activePlayer} />
 
       </div>
 
